@@ -6,11 +6,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ul>
-          <li>Home</li>
-          <li>List Students</li>
-          <li>Add Students</li>
-         </ul> 
+        
       </div>
     );
   }
