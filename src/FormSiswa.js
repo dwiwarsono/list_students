@@ -30,9 +30,9 @@ class FormSiswa extends Component {
                 onClick={ () => this.tambahSiswa() }
                 />
                 <h2>Siswa : </h2>
-                { this.state.students.map(student => {
+                <h1>{ this.state.students.map(student => {
                     return <h3>{student}</h3>
-                })}
+                })}</h1>
             </div>
         )
     }
