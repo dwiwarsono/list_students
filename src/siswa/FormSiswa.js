@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import ListSiswa from './ListSiswa'
+
 class FormSiswa extends Component {
     constructor(){
         super()
@@ -30,9 +32,8 @@ class FormSiswa extends Component {
                 onClick={ () => this.tambahSiswa() }
                 />
                 <h2>Siswa : </h2>
-                <h1>{ this.state.students.map(student => {
-                    return <h3>{student}</h3>
-                })}</h1>
+                <ListSiswa list_students={this.state.students}/>
+               
             </div>
         )
     }
