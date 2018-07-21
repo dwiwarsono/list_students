@@ -3,7 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 
 import Header from './Header';
-import FormSiswa from './FormSiswa';
+import FormSiswa from './siswa/FormSiswa';
 
 class App extends Component {
   render() {
